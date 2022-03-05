@@ -6,6 +6,7 @@ import HeaderTab from "../components/HeaderTab";
 import SearchTab from "../components/SearchTab";
 import Categories from "../components/Categories";
 import CategoryItem from "../components/CategoryItem";
+import Listings from "../components/Listings";
 
 const HomeScreen = () => {
   return (
@@ -14,6 +15,7 @@ const HomeScreen = () => {
       <SearchTab />
       <View style={styles.innerContainer}>
         <Categories />
+        <Listings />
       </View>
     </Screen>
   );
